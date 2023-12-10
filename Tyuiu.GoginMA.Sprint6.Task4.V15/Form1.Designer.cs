@@ -29,10 +29,10 @@ namespace Tyuiu.GoginMA.Sprint6.Task4.V15
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Title title1 = new System.Windows.Forms.DataVisualization.Charting.Title();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Title title2 = new System.Windows.Forms.DataVisualization.Charting.Title();
             this.groupBoxTask_GMA = new System.Windows.Forms.GroupBox();
             this.groupBoxInPutData_GMA = new System.Windows.Forms.GroupBox();
             this.groupBoxOutPutData_GMA = new System.Windows.Forms.GroupBox();
@@ -182,25 +182,25 @@ namespace Tyuiu.GoginMA.Sprint6.Task4.V15
             this.chartFunction_GMA.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            chartArea1.Name = "ChartArea1";
-            this.chartFunction_GMA.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.chartFunction_GMA.Legends.Add(legend1);
+            chartArea2.Name = "ChartArea1";
+            this.chartFunction_GMA.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.chartFunction_GMA.Legends.Add(legend2);
             this.chartFunction_GMA.Location = new System.Drawing.Point(275, 82);
             this.chartFunction_GMA.Name = "chartFunction_GMA";
-            series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            this.chartFunction_GMA.Series.Add(series1);
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            this.chartFunction_GMA.Series.Add(series2);
             this.chartFunction_GMA.Size = new System.Drawing.Size(679, 530);
             this.chartFunction_GMA.TabIndex = 2;
             this.chartFunction_GMA.Text = "chartFunction";
-            title1.Font = new System.Drawing.Font("MS Reference Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            title1.ForeColor = System.Drawing.Color.RoyalBlue;
-            title1.Name = "TitleFunction";
-            title1.Text = "График функции";
-            this.chartFunction_GMA.Titles.Add(title1);
+            title2.Font = new System.Drawing.Font("MS Reference Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            title2.ForeColor = System.Drawing.Color.RoyalBlue;
+            title2.Name = "TitleFunction";
+            title2.Text = "График функции";
+            this.chartFunction_GMA.Titles.Add(title2);
             // 
             // FormMain_GMA
             // 
@@ -217,7 +217,7 @@ namespace Tyuiu.GoginMA.Sprint6.Task4.V15
             this.MinimumSize = new System.Drawing.Size(800, 450);
             this.Name = "FormMain_GMA";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Спринт 6 | Таск 4 | Вариант 15 | Гогин М. А.";
             this.groupBoxTask_GMA.ResumeLayout(false);
             this.groupBoxTask_GMA.PerformLayout();
             this.groupBoxInPutData_GMA.ResumeLayout(false);
