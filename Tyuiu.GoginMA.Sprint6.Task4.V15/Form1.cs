@@ -56,7 +56,7 @@ namespace Tyuiu.GoginMA.Sprint6.Task4.V15
         {
             try
             {
-                string path = $@"{Directory.GetCurrentDirectory()}\OutPutFileTask4.txt";
+                string path = $@"{Directory.GetCurrentDirectory()}\OutPutFileTask4V15.txt";
                 File.WriteAllText(path, textBoxResult_GMA.Text);
                 DialogResult dialogResult = MessageBox.Show("Файл " + path + " сохранен успешно!\n Открыть его в блокноте?", "Сообщение", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
                 if (dialogResult == DialogResult.Yes)
